@@ -2,9 +2,9 @@
 
 const double gThreshold = 2;     // Samples if the threshold of 2 G's is exceeded
 const int samplingRate = 119;    // Default sampling rate of the IMU
-const int guestureDuration = 60; // guesture duration in seconds
-const int intervalDuration = 3;  // time between guestures
-const int samplesPerGesture = samplingRate * guestureDuration;
+const int gestureDuration = 60; // gesture duration in seconds
+const int intervalDuration = 3;  // time between gestures
+const int samplesPerGesture = samplingRate * gestureDuration;
 
 int sampleRead = samplesPerGesture;
 
