@@ -24,7 +24,7 @@
 #include <tensorflow/lite/schema/schema_generated.h>
 #include <tensorflow/lite/version.h>
 
-#include "hand_wash_model_60s.h"
+#include "oh_band_model_60s.h"
 
 const int numSamples = 119;
 
